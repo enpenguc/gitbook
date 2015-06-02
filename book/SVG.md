@@ -14,7 +14,7 @@ SVG 有一些预定义的形状元素，可被开发者使用和操作：
 
 ---
 ####[id="123"]矩形
-~~~
+~~~html
   <rect x="0" y="10" rx="15" ry="15" width="300" height="100" 
    style="fill:rgb(0,0,255);stroke-width:1;stroke:rgb(0,0,0);opacity:0.9;"/>
 ~~~
@@ -27,21 +27,21 @@ SVG 有一些预定义的形状元素，可被开发者使用和操作：
    + Use the `<printf()>` function.
 
 ####圆形
-~~~ 
+~~~html
   <circle cx="100" cy="50" r="40" stroke="black" stroke-width="2" fill="red"/>
 ~~~
    + cx,cy:圆点的x和y坐标。如果省略 cx 和 cy，圆的中心会被设置为 (0, 0)
    + r 属性定义圆的半径。
      
 ####椭圆
-~~~
+~~~html
   <ellipse cx="300" cy="150" rx="200" ry="80" style="fill:rgb(200,100,50);stroke:rgb(0,0,100);stroke-width:2"/> 
 ~~~
    + cx,cy:圆点的x,y坐标
    + rx,ry:水平半径,垂直半径
    
 ####线
-~~~
+~~~html
   <line x1="0" y1="0" x2="300" y2="300" style="stroke:rgb(99,99,99);
      stroke-width:2"/> 
 ~~~
@@ -49,13 +49,13 @@ SVG 有一些预定义的形状元素，可被开发者使用和操作：
    + x2,y2 定义线条的结束坐标
    
 ####折线
-~~~
+~~~html
    <polyline points="0,0 0,20 20,20 20,40 40,40 40,60" style="fill:white;stroke:red;stroke-width:2"/>
 ~~~
    + points 定义折线每个点的 x 和 y 坐标
 
 ####多边形
-~~~
+~~~html
   <polygon points="220,100 300,210 170,250" style="fill:#cccccc;
      stroke:#000000;stroke-width:1"/>
 ~~~
@@ -79,12 +79,12 @@ SVG 有一些预定义的形状元素，可被开发者使用和操作：
 注释：以上所有命令均允许小写字母。大写表示绝对定位，小写表示相对定位。
   
   + 下面的例子定义了一条路径，它开始于位置 250 150，到达位置150 350，然后从那里开始到 350 350，最后在 250 150 关闭路径。
-  ~~~
+  ~~~html
   <path d="M250 150 L150 350 L350 350 Z" />
   ~~~
   
   + 下面的例子创建了一个螺旋
-~~~
+~~~html
     <?xml version="1.0" standalone="no"?>
     <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
     "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
