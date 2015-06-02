@@ -2,7 +2,7 @@
 ##bootstrap
 
 ###1.modal插件：
-```
+```javascript
    $('#myModal').modal(options)
    options ={
        backdrop: true,//true,false,"static"  点击mask背景时关闭模态框。
