@@ -5,3 +5,78 @@
 4.加分项：使用过nodejs、requirejs、seajs任何一种，有前端分离，模块化开发经验。
 5.加分项：使用过任何一种报表绘图框架，如highcharts、echarts、d3jd等，有过图形、图表、报表相关开发经验。 
 
+前端开发
+初级
+1.掌握html、css、javascript基础知识，会使用业内框架例如jQuery，熟练调用框架提供的常用API和组件，能够完成ajax数据通信
+2.分析视觉稿，使用Phototshop等设计工具产出图片等素材文件，最终能够产出具备良好浏览器兼容和代码符合规范的页面 
+3.会使用Firebug等开发人员工具调试代码和页面优化
+ 
+中级
+1.独立完成中小型项目开发，代码符合规范，并具备页面优化的能力
+2.熟练掌握一种框架例如jQuery，熟悉javascript语言特性，会使用OOP思想进行控件开发 
+3.熟悉浏览器的安全策略，有跨域调试数据通行的经验。了解基本xss等web安全问题
+4.熟练使用开发人员工具调试代码。理解浏览器渲染原理。能通过数据包分析页面请求与响应。
+5.能对初级开发的代码能做Codereview
+ 
+高级
+1.了解浏览器的渲染机制以及js的性能瓶颈，有基于js算法优化的经验。对于大中型项目的前端系统的前端性能有评测手段和优化技能
+2.知道主流js框架的区别和设计思想，阅读过至少一种框架的源码，了解其核心实现机制。有自己实现过js代码库
+3.对于前端新技术例如nodejs、jsmvc、canvas有技术探索。使用这些技术有产出，例如产出提高效率的工具
+4.具备攻坚解决问题的能力，对大型项目具备前瞻性的分析能力
+5.基于js运行机制和浏览器安全沙箱的理解，能够避免页面出现安全问题。了解跨主域的数据通信方案
+ 
+资深
+１.对于高级要求中提到的技术，对技术细节有进一步深入了解，能够灵活运用，做出架构提升
+２.对于W3C标准深入研究，对于业界发展有前瞻性的见解
+3.在某个技术领域有深入的研究和特长
+4.能把控某条产品线的技术架构，完成复杂或跨线项目的技术实现
+5.对行业新技术有敏感度，能结合支付宝实际情况在工作中采用，并推广到团队
+6.能够有自己的开源框架产出
+ 
+ --------
+ css:
+ 1.行内元素块级元素
+ 2.定位position
+ 3.css伪类：hover,before,after
+   具体事例，清除浮动:clearfix ，纯css绘制三角形
+ 4.css关系选择符：
+	   E F:包含选择符	E>F:子选择符(Child combinator)	E+F:相邻选择符，选择紧贴在E元素之后F元素。
+	   E~F：兄弟选择符，选择E元素所有兄弟元素F。
+ 5.css3: 转换 Transform	, 过渡 Transition, 动画 Animation
+ 6.css资源优化：使用CSS Sprites图片整合，icon font(@font-face)
+ 7.动态样式语言：sass，less，stylus
+ 
+js:
+ 1.一些基本数据类型，数组基本遍历访问（for与for in区别）
+ 2.jquery的基本api,查找遍历页面的元素，取值。
+   开发一个组件$.fn.extend()...
+ 3.AJAX请求,跨域JSONP（页面安全及xss机制）
+ 4.js面向对象：phototype原型链、extend扩展，call，apply，闭包和引用
+ 5.DOM事件绑定，事件冒泡机制
+ 6.相等与比较:==与===区别，typeof 与instanceof 
+ 7.调试工具firebug, chrome
+
+
+html5:
+  1.HTML5的新特性：
+  	用于绘画的 canvas 元素
+  	用于媒介回放的 video 和 audio 元素
+  	对本地离线存储的更好的支持
+  	新的特殊内容元素，比如 article、footer、header、nav、section
+  	新的表单控件，比如 calendar、date、time、email、url、search
+  2.Web存储：localStorage ，sessionStorage 
+  3.应用程序缓存：创建cache manifest文件(<html manifest="demo.appcache">)
+  4.Web Workers：运行在后台的 JavaScript
+  5.服务器发送事件(Server-Sent Events),EventSource支持
+
+模块化及编译构建：
+  1.handlebars, requirejs,seajs,React及webpack
+  2.nodejs,gulp,grunt等
+
+more:
+  任何一种Javascript/css框架，如ext,jqueryUI,miniUi,bootstrap,AngularJS等；
+  使用过nodejs、requirejs、seajs任何一种，有前端分离，模块化开发经验。
+  使用过任何一种报表绘图框架，如highcharts、echarts、d3js等，有过图形、图表、报表相关开发经验。 
+  使用过svg,git等
+-----------
+
